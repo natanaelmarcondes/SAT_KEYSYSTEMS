@@ -17,7 +17,10 @@ builder.Services.AddAuthentication("CookieAuth")
         c.LoginPath = "/Login/Index";
     });
 
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Admin", policy => policy.RequireClaim("Perfil", "ADMIN"));
+});
 
 var app = builder.Build();
 

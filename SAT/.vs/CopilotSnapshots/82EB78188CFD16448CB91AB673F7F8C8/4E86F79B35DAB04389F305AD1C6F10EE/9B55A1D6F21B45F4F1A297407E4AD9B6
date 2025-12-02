@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<main class="container mt-4">
+
+    <h3>Bem-vindo ao SAT</h3>
+    <p>Selecione uma opção no menu acima.</p>
+
+</main>

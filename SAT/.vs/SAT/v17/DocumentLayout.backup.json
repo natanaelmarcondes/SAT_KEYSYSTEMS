@@ -1,37 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "H:\\Keysystems\\SAT\\SAT\\",
+  "WorkspaceRootPath": "D:\\Projetos\\SAT\\SAT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\views\\usuario\\novo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:views\\usuario\\novo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\utils\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:utils\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:views\\produto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|h:\\keysystems\\sat\\sat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\utils\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:utils\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|d:\\projetos\\sat\\sat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69A35712-568A-4FE3-8CC2-60840CBB5765}|SAT.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -47,35 +55,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAswD8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T11:11:11.898Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Edit.cshtml",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Edit.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T23:50:00.414Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Models\\Produto.cs",
-              "RelativeToolTip": "Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T11:10:49.931Z"
+              "DocumentIndex": 1,
+              "Title": "Novo.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Novo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Novo.cshtml",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Novo.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Novo.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T23:47:58.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T23:47:33.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T23:47:25.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuario\\Index.cshtml",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "Views\\Usuario\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-02T23:19:10.729Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Models\\Usuario.cs",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Models\\Usuario.cs",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Models\\Usuario.cs",
               "RelativeToolTip": "Models\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -83,35 +127,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Program.cs",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T11:08:53.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-02T11:08:19.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DataBaseHelper.cs",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Utils\\DataBaseHelper.cs",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Utils\\DataBaseHelper.cs",
               "RelativeDocumentMoniker": "Utils\\DataBaseHelper.cs",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Utils\\DataBaseHelper.cs",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Utils\\DataBaseHelper.cs",
               "RelativeToolTip": "Utils\\DataBaseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,23 +151,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Views\\Produto\\Index.cshtml",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Views\\Produto\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Produto\\Index.cshtml",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Views\\Produto\\Index.cshtml",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Views\\Produto\\Index.cshtml",
               "RelativeToolTip": "Views\\Produto\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-02T11:18:26.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

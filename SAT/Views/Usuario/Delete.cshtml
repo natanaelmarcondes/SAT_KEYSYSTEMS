@@ -1,0 +1,13 @@
+@model SAT.Models.Usuario
+@{
+    ViewData["Title"] = "Excluir Usuário";
+}
+
+<h3>Excluir Usuário</h3>
+
+<div class="alert alert-warning">Tem certeza que deseja excluir o usuário <strong>@Model.Nome</strong>?</div>
+
+<form method="post" asp-controller="Usuario" asp-action="DeleteConfirmed" asp-route-id="@Model.Id">
+    <a class="btn btn-secondary" href="/Usuario">Cancelar</a>
+    <button class="btn btn-danger">Excluir</button>
+</form>

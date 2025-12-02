@@ -1,0 +1,70 @@
+@model SAT.Models.Usuario
+@{
+    ViewData["Title"] = "Editar Usuário";
+}
+
+<div class="container mt-3">
+
+    <h3 class="fw-bold mb-3" style="color:#1F4E79;">
+        <i class="bi bi-pencil-square me-2"></i> Editar Usuário
+    </h3>
+
+    <div class="card shadow-sm border-0" style="border-radius:14px;">
+        <div class="card-body p-4">
+
+            <form method="post"
+                  asp-controller="Usuario"
+                  asp-action="Edit"
+                  asp-route-id="@Model.Id">
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold" style="color:#2D2D2D;">Nome</label>
+                    <input class="form-control py-2"
+                           name="Nome"
+                           value="@Model.Nome"
+                           style="border-radius:10px;" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold" style="color:#2D2D2D;">Email</label>
+                    <input class="form-control py-2"
+                           name="Email"
+                           type="email"
+                           value="@Model.Email"
+                           style="border-radius:10px;" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold" style="color:#2D2D2D;">
+                        Nova Senha (opcional)
+                    </label>
+                    <input class="form-control py-2"
+                           name="novaSenha"
+                           type="password"
+                           style="border-radius:10px;" />
+                    <div class="form-text mt-1">
+                        Deixe em branco para manter a senha atual.
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold" style="color:#2D2D2D;">Perfil</label>
+                    <select class="form-select py-2"
+                            name="Perfil"
+                            style="border-radius:10px;">
+                        <option value="USER" selected="@(Model.Perfil == "USER")">USER</option>
+                        <option value="ADMIN" selected="@(Model.Perfil == "ADMIN")">ADMIN</option>
+                    </select>
+                </div>
+
+                <button class="btn px-4 py-2 mt-2 shadow-sm w-100"
+                        style="background:#1F7AC0; color:white; border-radius:10px; font-size:1rem; font-weight:500;">
+                    <i class="bi bi-check2-circle me-2"></i> Salvar Alterações
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>

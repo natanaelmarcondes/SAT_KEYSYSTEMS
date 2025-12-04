@@ -1,0 +1,42 @@
+using Microsoft.EntityFrameworkCore;
+using SAT.Data;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// MVC
+builder.Services.AddControllersWithViews();
+
+// Sessão
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
+builder.Services.AddHttpContextAccessor();
+
+// Conexão MySQL
+var conn = builder.Configuration.GetConnectionString("MySQL");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(conn, ServerVersion.AutoDetect(conn)));
+
+var app = builder.Build();
+
+// Pipeline
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseSession();  // << IMPORTANTE
+
+app.UseAuthorization();
+
+// Rotas padrão
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Login}/{action=Index}/{id?}");
+
+app.Run();

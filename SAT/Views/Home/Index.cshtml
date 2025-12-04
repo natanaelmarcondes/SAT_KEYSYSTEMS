@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Consulta de Produtos";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Consulta de Produtos</h1>
+
+    <form asp-controller="Home" asp-action="Index" method="get" class="row g-3 align-items-end">
+        <div class="col-md-3">
+            <label for="tipoBusca" class="form-label">Buscar por</label>
+            <select id="tipoBusca" name="tipoBusca" class="form-select">
+                <option value="descricao">Descrição</option>
+                <option value="codigo">Código</option>
+                <option value="codigobarras">Código de Barras</option>
+            </select>
+        </div>
+
+        <div class="col-md-5">
+            <label for="termo" class="form-label">Termo da busca</label>
+            <input type="text" id="termo" name="termo" class="form-control" placeholder="Digite aqui..." />
+        </div>
+
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary w-100">
+                Buscar
+            </button>
+        </div>
+    </form>
+
+    <hr class="my-4" />
+
+    @if (!string.IsNullOrEmpty((string)ViewBag.Termo))
+    {
+        <div class="alert alert-info">
+            <strong>Busca recebida:</strong><br />
+            Tipo: @ViewBag.TipoBusca <br />
+            Termo: @ViewBag.Termo
+        </div>
+    }
+</div>

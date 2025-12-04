@@ -4,44 +4,54 @@
     ViewData["Title"] = "Consulta de Produtos";
 }
 
-<div class="container mt-4">
-    <h1 class="mb-4">Consulta de Produtos</h1>
+<div class="container mt-3">
 
-    <form id="searchForm" method="get" class="row g-3 mb-4">
-        <div class="col-md-3 col-12">
-            <label class="form-label">Buscar por</label>
-            <select name="tipoBusca" class="form-select">
+    <!-- TÍTULO ADAPTADO PARA MOBILE -->
+    <h1 class="mb-3 text-center text-md-start" style="font-size: 1.6rem;">
+        Consulta de Produtos
+    </h1>
+
+    <form id="searchForm" method="get" class="row g-2 g-md-3 mb-3">
+
+        <div class="col-12 col-md-3">
+            <label class="form-label fw-bold small">Buscar por</label>
+            <select name="tipoBusca" class="form-select form-select-sm">
                 <option value="descricao" selected>Descrição</option>
                 <option value="codigo">Código</option>
                 <option value="codigobarras">Código de Barras</option>
             </select>
         </div>
 
-        <div class="col-md-5 col-12">
-            <label class="form-label">Termo</label>
-            <input type="text" name="termo" value="@ViewBag.Termo" class="form-control" placeholder="Digite para buscar..." />
+        <div class="col-12 col-md-5">
+            <label class="form-label fw-bold small">Termo</label>
+            <input type="text"
+                   name="termo"
+                   value="@ViewBag.Termo"
+                   class="form-control form-control-sm"
+                   placeholder="Digite para buscar..." />
         </div>
 
-        <div class="col-md-2 col-12">
-            <label class="form-label">&nbsp;</label>
-            <button id="btnBuscar" class="btn btn-primary w-100" type="submit">
+        <div class="col-12 col-md-2">
+            <label class="form-label small d-none d-md-block">&nbsp;</label>
+            <button id="btnBuscar" class="btn btn-primary w-100 btn-sm py-2" type="submit">
                 Buscar
             </button>
         </div>
 
     </form>
 
-    <hr />
+    <hr class="mt-4 mb-2" />
 
-    <div class="table-responsive">
-        <table class="table table-striped table-bordered">
+    <!-- TABELA MOBILE FRIENDLY -->
+    <div class="table-responsive tabela-mobile">
+        <table class="table table-striped table-bordered align-middle">
             <thead class="table-dark">
                 <tr>
-                    <th>Código</th>
-                    <th>Descrição</th>
-                    <th>Descrição Busca</th>
-                    <th>Cód.Barras</th>
-                    <th style="width: 60px; text-align:center;">Anexo</th>
+                    <th class="small">Código</th>
+                    <th class="small">Descrição</th>
+                    <th class="small">Busca</th>
+                    <th class="small">Cód.Barras</th>
+                    <th class="text-center small" style="width: 55px;">Anexo</th>
                 </tr>
             </thead>
 
@@ -51,24 +61,36 @@
                     foreach (var p in Model)
                     {
                         <tr>
-                            <td>@p.prd_Codigo</td>
-                            <td>@p.prd_Descri</td>
-                            <td>@p.prd_DesBus</td>
-                            <td>@p.prd_CodBar</td>
+                            <td class="small">@p.prd_Codigo</td>
+                            <td class="small">@p.prd_Descri</td>
+                            <td class="small">@p.prd_DesBus</td>
+                            <td class="small">@p.prd_CodBar</td>
 
                             <td class="text-center">
-                                <a href="@Url.Action("Anexo", "Produtos", new { codigo = p.prd_Codigo })"
-                                   title="Ver Anexos">
-                                    <i class="bi bi-search" style="font-size: 1.5rem;"></i>
-                                </a>
+
+                                @if (p.TemAnexo)
+                                {
+                                    <a href="@Url.Action("Anexo", "Produtos", new { codigo = p.prd_Codigo })"
+                                       title="Anexo disponível">
+                                        <i class="bi bi-search text-success" style="font-size: 1.6rem;"></i>
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span title="Nenhum anexo encontrado">
+                                        <i class="bi bi-search text-secondary" style="opacity: .35; font-size: 1.6rem;"></i>
+                                    </span>
+                                }
+
                             </td>
+
                         </tr>
                     }
                 }
                 else
                 {
                     <tr>
-                        <td colspan="5" class="text-center text-muted">Nenhum produto encontrado.</td>
+                        <td colspan="5" class="text-center text-muted small">Nenhum produto encontrado.</td>
                     </tr>
                 }
             </tbody>
@@ -76,9 +98,3 @@
     </div>
 </div>
 
-<style>
-    /* Responsividade */
-    .table-responsive {
-        overflow-x: auto;
-    }
-</style>

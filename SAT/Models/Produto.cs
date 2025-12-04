@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace SAT.Models
 {
     public class Produto
@@ -11,5 +13,8 @@ namespace SAT.Models
         public string emp_Codigo { get; set; }
         public string mrc_Codigo { get; set; }
         public string prd_CodTab { get; set; } = "";
+        [NotMapped]
+        public bool TemAnexo { get; set; }
+
     }
 }

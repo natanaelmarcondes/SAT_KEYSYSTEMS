@@ -44,3 +44,35 @@ body {
 .table-responsive {
     overflow-x: auto;
 }
+<style >
+/* Aperfeiçoamento para mobile */
+.tabela-mobile td,
+.tabela-mobile th {
+    white-space: nowrap;
+    padding: 6px !important;
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.4rem !important;
+    }
+
+    .form-label {
+        margin-bottom: 2px;
+    }
+
+    .table-responsive {
+        border-radius: 6px;
+    }
+
+    .tabela-mobile td {
+        font-size: 0.78rem !important;
+    }
+
+    .tabela-mobile th {
+        font-size: 0.75rem !important;
+    }
+}
+
+</style >
+

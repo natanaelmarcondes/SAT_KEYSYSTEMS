@@ -29,7 +29,7 @@ namespace SAT.Controllers
                         if (int.TryParse(termo, out int codDigitado))
                         {
                             lista = _context.Produtos
-                                .Where(p => Convert.ToInt32(p.prd_Codigo) == codDigitado && p.emp_Codigo == "01" && p.mrc_Codigo == "01")
+                                .Where(p => Convert.ToInt32(p.prd_Codigo) == codDigitado && p.emp_Codigo == "01" && p.mrc_Codigo == "01" && p.prd_CodTab == "00")
                                 .ToList();
                         }
                         else
@@ -43,7 +43,7 @@ namespace SAT.Controllers
                         if (decimal.TryParse(termo, out decimal codBarras))
                         {
                             lista = _context.Produtos
-                                .Where(p => p.prd_CodBar == codBarras && p.emp_Codigo == "01" && p.mrc_Codigo == "01")
+                                .Where(p => p.prd_CodBar == codBarras && p.emp_Codigo == "01" && p.mrc_Codigo == "01" && p.prd_CodTab == "00")
                                 .ToList();
                         }
                         else
@@ -55,7 +55,7 @@ namespace SAT.Controllers
 
                     default:
                         lista = _context.Produtos
-                            .Where(p => p.prd_Descri.Contains(termo) && p.emp_Codigo == "01" && p.mrc_Codigo == "01")
+                            .Where(p => p.prd_Descri.Contains(termo) && p.emp_Codigo == "01" && p.mrc_Codigo == "01" && p.prd_CodTab == "00")
                             .ToList();
                         break;
                 }

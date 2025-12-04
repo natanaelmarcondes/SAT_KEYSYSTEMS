@@ -15,8 +15,12 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">SAT</a>
+                <div class="text-center mb-3">
+                    <img src="~/imagens/logo_fani.jpg"
+                         alt="SAT"
+                         style="width:180px; height:auto;" />
+                </div>
+                <a class="navbar-brand" asp-controller="Página Inicial" asp-action="Index">Sistema de Assistência Técnica</a>
 
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
 
@@ -24,12 +28,9 @@
 
                         @if (Context.Session.GetString("UsuarioNome") != null)
                         {
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                            </li>
+                           // <li class="nav-item">
+                           //     <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
+                           // </li>
                         }
                     </ul>
 
@@ -70,6 +71,13 @@
         </div>
     </footer>
 
+    <div id="loadingSpinner">
+        <div class="spinner-border text-primary" style="width:3rem; height:3rem;" role="status"></div>
+    </div>
+
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
 </body>
 </html>

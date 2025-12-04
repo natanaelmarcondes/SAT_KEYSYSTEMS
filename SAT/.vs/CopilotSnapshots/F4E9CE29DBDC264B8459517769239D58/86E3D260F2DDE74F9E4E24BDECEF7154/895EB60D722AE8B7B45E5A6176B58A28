@@ -7,7 +7,8 @@
 <div class="container mt-4">
     <h1 class="mb-4">Consulta de Produtos</h1>
 
-    <form id="searchForm" method="get" class="row g-3 mb-4">
+    <form method="get" class="row g-3 mb-4">
+
         <div class="col-md-3 col-12">
             <label class="form-label">Buscar por</label>
             <select name="tipoBusca" class="form-select">
@@ -24,7 +25,7 @@
 
         <div class="col-md-2 col-12">
             <label class="form-label">&nbsp;</label>
-            <button id="btnBuscar" class="btn btn-primary w-100" type="submit">
+            <button class="btn btn-primary w-100">
                 Buscar
             </button>
         </div>
@@ -76,9 +77,33 @@
     </div>
 </div>
 
+<!-- SPINNER E SCRIPTS -->
 <style>
-    /* Responsividade */
+    #loadingSpinner {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 2000;
+    }
+
     .table-responsive {
         overflow-x: auto;
     }
 </style>
+
+<div id="loadingSpinner">
+    <div class="spinner-border text-primary" style="width:3rem; height:3rem;" role="status"></div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const spinner = document.getElementById("loadingSpinner");
+        spinner.style.display = "block";
+
+        window.onload = function () {
+            setTimeout(() => spinner.style.display = "none", 200);
+        };
+    });
+</script>

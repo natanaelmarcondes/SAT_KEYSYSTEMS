@@ -10,6 +10,6 @@ namespace SAT.Models
         public decimal prd_CodBar { get; set; }
         public string emp_Codigo { get; set; }
         public string mrc_Codigo { get; set; }
-
+        public string prd_CodTab { get; set; } = "";
     }
 }

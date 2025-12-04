@@ -1,0 +1,15 @@
+﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+// for details on configuring this project to bundle and minify static web assets.
+
+// Write your JavaScript code.
+// Spinner exibe enquanto a página carrega
+document.addEventListener("DOMContentLoaded", function () {
+    const spinner = document.getElementById("loadingSpinner");
+    if (spinner) {
+        spinner.style.display = "block";
+
+        window.onload = function () {
+            setTimeout(() => spinner.style.display = "none", 150);
+        };
+    }
+});

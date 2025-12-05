@@ -50,7 +50,6 @@
                     <th class="small">Código</th>
                     <th class="small">Descrição</th>
                     <th class="small">Busca</th>
-                    <th class="small">Cód.Barras</th>
                     <th class="text-center small" style="width: 55px;">Anexo</th>
                 </tr>
             </thead>
@@ -64,21 +63,19 @@
                             <td class="small">@p.prd_Codigo</td>
                             <td class="small">@p.prd_Descri</td>
                             <td class="small">@p.prd_DesBus</td>
-                            <td class="small">@p.prd_CodBar</td>
-
+                            
                             <td class="text-center">
 
                                 @if (p.TemAnexo)
                                 {
-                                    <a href="@Url.Action("Anexo", "Produtos", new { codigo = p.prd_Codigo })"
-                                       title="Anexo disponível">
-                                        <i class="bi bi-search text-success" style="font-size: 1.6rem;"></i>
+                                    <a href="@Url.Action("Visualizar", "Produtos", new { codigo = p.prd_NomImg })">
+                                        <i class="bi bi-eye text-success" style="font-size: 1.6rem;"></i>
                                     </a>
                                 }
                                 else
                                 {
                                     <span title="Nenhum anexo encontrado">
-                                        <i class="bi bi-search text-secondary" style="opacity: .35; font-size: 1.6rem;"></i>
+                                        <i class="bi bi-exclamation-circle text-secondary" style="opacity: .35; font-size: 1.6rem;"></i>
                                     </span>
                                 }
 

@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+Ôªøusing Microsoft.EntityFrameworkCore;
 using SAT.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,12 +6,12 @@ var builder = WebApplication.CreateBuilder(args);
 // MVC
 builder.Services.AddControllersWithViews();
 
-// Sess„o
+// Sess√£o
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 
-// Conex„o MariaDB
+// Conex√£o MariaDB
 var conn = builder.Configuration.GetConnectionString("MariaDB");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(conn, ServerVersion.AutoDetect(conn)));
@@ -34,7 +34,7 @@ app.UseSession();  // << IMPORTANTE
 
 app.UseAuthorization();
 
-// Rotas padr„o
+// Rotas padr√£o
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Login}/{action=Index}/{id?}");

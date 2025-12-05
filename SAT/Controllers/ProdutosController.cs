@@ -21,22 +21,28 @@ namespace SAT.Controllers
             string basePath = _config["DiretorioAnexos"];
 
             // Arquivos possíveis
-            string jpgPath = Path.Combine(basePath, $"{codigo}.jpg");
-            string pdfPath = Path.Combine(basePath, $"{codigo}.pdf");
+            string pngPath = Path.Combine(basePath, $"{codigo}");
+            //string pdfPath = Path.Combine(basePath, $"{codigo}.pdf");
 
-            if (System.IO.File.Exists(jpgPath))
+            if (System.IO.File.Exists(pngPath))
             {
-                byte[] fileBytes = System.IO.File.ReadAllBytes(jpgPath);
-                return File(fileBytes, "image/jpeg");
+                byte[] fileBytes = System.IO.File.ReadAllBytes(pngPath);
+                return File(fileBytes, "image/png");
             }
 
-            if (System.IO.File.Exists(pdfPath))
-            {
-                byte[] fileBytes = System.IO.File.ReadAllBytes(pdfPath);
-                return File(fileBytes, "application/pdf");
-            }
+            //if (System.IO.File.Exists(pdfPath))
+            //{
+            //    byte[] fileBytes = System.IO.File.ReadAllBytes(pdfPath);
+            //    return File(fileBytes, "application/pdf");
+            //}
 
             return Content("Nenhum anexo encontrado para este produto.");
         }
+        public IActionResult Visualizar(string codigo)
+        {
+            ViewBag.Codigo = codigo;
+            return View();
+        }
+
     }
 }

@@ -32,7 +32,7 @@ namespace SAT.Controllers
                         {
                             lista = _context.Produtos
                                 .Where(p =>
-                                    Convert.ToInt32(p.prd_Codigo) == codDigitado).Take(10)
+                                    Convert.ToInt32(p.prd_Codigo) == codDigitado).Take(30)
                                 .ToList();
                         }
                         else
@@ -40,10 +40,17 @@ namespace SAT.Controllers
                             lista = new List<Produto>();
                         }
                         break;
+                    case "descricaobusca":
+                        lista = _context.Produtos
+                            .Where(p => p.prd_DesBus.Contains(termo))
+                            .Take(30)
+                            .ToList();
+                        break;
+
                     default:
                         lista = _context.Produtos
                             .Where(p =>
-                                p.prd_Descri.Contains(termo)).Take(10)
+                                p.prd_Descri.Contains(termo)).Take(30)
                             .ToList();
                         break;
                 }

@@ -1,0 +1,13 @@
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\SAT.exe
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\appsettings.Development.json
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\appsettings.json
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\SAT.dll
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\SAT.deps.json
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\SAT.runtimeconfig.json
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\SAT.pdb
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\BCrypt.Net-Next.dll
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\MySqlConnector.dll
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\PubTmp\Out\Pomelo.EntityFrameworkCore.MySql.dll

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Keysystems\\SAT\\SAT\\SAT.csproj": {}
+    "D:\\Projetos\\SAT\\SAT\\SAT.csproj": {}
   },
   "projects": {
-    "H:\\Keysystems\\SAT\\SAT\\SAT.csproj": {
+    "D:\\Projetos\\SAT\\SAT\\SAT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Keysystems\\SAT\\SAT\\SAT.csproj",
+        "projectUniqueName": "D:\\Projetos\\SAT\\SAT\\SAT.csproj",
         "projectName": "SAT",
-        "projectPath": "H:\\Keysystems\\SAT\\SAT\\SAT.csproj",
-        "packagesPath": "C:\\Users\\natanael\\.nuget\\packages\\",
-        "outputPath": "H:\\Keysystems\\SAT\\SAT\\obj\\",
+        "projectPath": "D:\\Projetos\\SAT\\SAT\\SAT.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\SAT\\SAT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\natanael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

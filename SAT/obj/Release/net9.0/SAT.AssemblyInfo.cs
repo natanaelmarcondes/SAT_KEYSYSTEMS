@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SAT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab4ee18773ecd7159559170641e418ffd9836ce3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+369119fe9729b2e9eef9a8a61018eafd39a0f3e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SAT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SAT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projetos\\SAT\\SAT\\",
+  "WorkspaceRootPath": "H:\\Keysystems\\SAT\\SAT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|d:\\projetos\\sat\\sat\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|h:\\keysystems\\sat\\sat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|h:\\keysystems\\sat\\sat\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|d:\\projetos\\sat\\sat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|h:\\keysystems\\sat\\sat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|d:\\projetos\\sat\\sat\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|h:\\keysystems\\sat\\sat\\controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|solutionrelative:controllers\\produtoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|d:\\projetos\\sat\\sat\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|h:\\keysystems\\sat\\sat\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DDB3652-0D38-480B-91A2-4D45A7F65030}|SAT.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,59 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutosController.cs",
-              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Controllers\\ProdutosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
-              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Controllers\\ProdutosController.cs",
-              "RelativeToolTip": "Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T10:58:47.233Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-08T11:04:03.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Models\\Usuario.cs",
-              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Models\\Usuario.cs",
-              "RelativeToolTip": "Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProdutosController.cs",
+              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Controllers\\ProdutosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProdutosController.cs",
+              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Controllers\\ProdutosController.cs",
+              "RelativeToolTip": "Controllers\\ProdutosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T10:58:03.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T10:58:47.233Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:58:03.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Index.cshtml",
+              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Views\\Usuario\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuario\\Index.cshtml",
-              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Views\\Usuario\\Index.cshtml",
               "RelativeToolTip": "Views\\Usuario\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-06T10:22:17.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Projetos\\SAT\\SAT\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "H:\\Keysystems\\SAT\\SAT\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Projetos\\SAT\\SAT\\Controllers\\HomeController.cs",
+              "ToolTip": "H:\\Keysystems\\SAT\\SAT\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T14:57:35.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T14:57:35.687Z"
             }
           ]
         }

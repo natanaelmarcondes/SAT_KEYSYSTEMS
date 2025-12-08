@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using SAT.Models;
 using SAT.Data;
+using SAT.Models;
+using SAT.Security;
 
 namespace SAT.Controllers
 {
+    [AuthorizePerfil("ADMIN")]
     public class UsuarioController : Controller
     {
         private readonly AppDbContext _context;

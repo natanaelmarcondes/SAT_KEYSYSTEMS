@@ -5,12 +5,14 @@ namespace SAT.Controllers
     public class ProdutosController : Controller
     {
         private readonly IWebHostEnvironment _env;
-        private readonly IConfiguration _config;
+        private readonly string _basePath;
 
         public ProdutosController(IWebHostEnvironment env, IConfiguration config)
         {
             _env = env;
-            _config = config;
+
+            // Monta o caminho físico correto independentemente do servidor
+            _basePath = Path.Combine(_env.WebRootPath, config["DiretorioAnexos"]);
         }
 
         public IActionResult Anexo(string codigo)
@@ -18,11 +20,8 @@ namespace SAT.Controllers
             if (string.IsNullOrWhiteSpace(codigo))
                 return Content("Código inválido.");
 
-            string basePath = _config["DiretorioAnexos"];
-
-            // Arquivos possíveis
-            string pngPath = Path.Combine(basePath, $"{codigo}");
-            //string pdfPath = Path.Combine(basePath, $"{codigo}.pdf");
+            string pngPath = Path.Combine(_basePath, $"{codigo}");
+            //string pdfPath = Path.Combine(_basePath, $"{codigo}.pdf");
 
             if (System.IO.File.Exists(pngPath))
             {
@@ -38,11 +37,11 @@ namespace SAT.Controllers
 
             return Content("Nenhum anexo encontrado para este produto.");
         }
+
         public IActionResult Visualizar(string codigo)
         {
             ViewBag.Codigo = codigo;
             return View();
         }
-
     }
 }

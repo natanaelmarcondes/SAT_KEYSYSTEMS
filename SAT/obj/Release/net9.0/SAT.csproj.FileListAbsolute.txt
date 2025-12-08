@@ -104,3 +104,4 @@ H:\Keysystems\SAT\SAT\obj\Release\net9.0\SAT.genruntimeconfig.cache
 H:\Keysystems\SAT\SAT\obj\Release\net9.0\ref\SAT.dll
 H:\Keysystems\SAT\SAT\obj\Release\net9.0\compressed\2urvc40u34-yynh8o7w49.gz
 H:\Keysystems\SAT\SAT\obj\Release\net9.0\compressed\7s1vuo5yju-087zie76po.gz
+H:\Keysystems\SAT\SAT\obj\Release\net9.0\compressed\z2snxi7qnh-x2qka9iqoj.gz

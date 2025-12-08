@@ -8,11 +8,17 @@ namespace SAT.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IConfiguration _config;
+        private readonly IWebHostEnvironment _env;
+        private readonly string _basePath;
 
-        public HomeController(AppDbContext context, IConfiguration config)
+        public HomeController(AppDbContext context, IConfiguration config, IWebHostEnvironment env)
         {
             _context = context;
             _config = config;
+            _env = env;
+
+            // Caminho físico REAL do wwwroot
+            _basePath = Path.Combine(_env.WebRootPath, _config["DiretorioAnexos"]);
         }
 
         public IActionResult Index(string tipoBusca, string termo)
@@ -31,8 +37,8 @@ namespace SAT.Controllers
                         if (int.TryParse(termo, out int codDigitado))
                         {
                             lista = _context.Produtos
-                                .Where(p =>
-                                    Convert.ToInt32(p.prd_Codigo) == codDigitado).Take(30)
+                                .Where(p => Convert.ToInt32(p.prd_Codigo) == codDigitado)
+                                .Take(30)
                                 .ToList();
                         }
                         else
@@ -40,6 +46,7 @@ namespace SAT.Controllers
                             lista = new List<Produto>();
                         }
                         break;
+
                     case "descricaobusca":
                         lista = _context.Produtos
                             .Where(p => p.prd_DesBus.Contains(termo))
@@ -49,28 +56,20 @@ namespace SAT.Controllers
 
                     default:
                         lista = _context.Produtos
-                            .Where(p =>
-                                p.prd_Descri.Contains(termo)).Take(30)
+                            .Where(p => p.prd_Descri.Contains(termo))
+                            .Take(30)
                             .ToList();
                         break;
                 }
             }
 
-            // Verificar anexos (JPG ou PDF)
-            string basePath = _config["DiretorioAnexos"] ?? "";
-
-            if (!string.IsNullOrEmpty(basePath))
+            // Verificar anexos
+            foreach (var item in lista)
             {
-                foreach (var item in lista)
-                {
-                    string png = Path.Combine(basePath, $"{item.prd_NomImg}");
-                    //string pdf = Path.Combine(basePath, $"{item.prd_NomImg}.pdf");
+                string png = Path.Combine(_basePath, $"{item.prd_NomImg}");
 
-                    item.TemAnexo = (System.IO.File.Exists(png) );
-                }
+                item.TemAnexo = System.IO.File.Exists(png);
             }
-
-            // ----------------------------------------------
 
             ViewBag.TipoBusca = tipoBusca;
             ViewBag.Termo = termo;

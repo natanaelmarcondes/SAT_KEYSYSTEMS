@@ -4,7 +4,8 @@ using SAT.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // MVC
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddSessionStateTempDataProvider(); // opcional, mas útil
 
 // Sessão
 builder.Services.AddDistributedMemoryCache();
@@ -30,7 +31,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseSession();  // << IMPORTANTE
+app.UseSession();  // necessário antes de Authorization
 
 app.UseAuthorization();
 

@@ -68,9 +68,14 @@
 
                                 @if (p.TemAnexo)
                                 {
-                                    <a href="@Url.Action("Visualizar", "Produtos", new { codigo = p.prd_NomImg })">
-                                        <i class="bi bi-eye text-success" style="font-size: 1.6rem;"></i>
-                                    </a>
+                                    <a href="@Url.Action("Visualizar", "Produtos", new {
+                                        codigo = p.prd_NomImg,
+                                            tipoBusca = Context.Request.Query["tipoBusca"].ToString(),
+                                            termo = Context.Request.Query["termo"].ToString()
+                                            })">
+                                    <i class="bi bi-eye text-success" style="font-size: 1.6rem;"></i>
+                                </a>
+
                                 }
                                 else
                                 {

@@ -1,9 +1,22 @@
 ﻿@{
     ViewData["Title"] = "Visualizar Anexo";
     string urlImagem = Url.Action("Anexo", "Produtos", new { codigo = ViewBag.Codigo });
+
+    var tipoBusca = Context.Request.Query["tipoBusca"].ToString();
+    var termo = Context.Request.Query["termo"].ToString();
+
+    var urlVoltar = Url.Action("Index", "Home", new { tipoBusca = tipoBusca, termo = termo });
+
 }
 
 <div class="text-center mt-4">
+
+    <!--Botão voltar-->
+    <div class="container mt-3 text-start">
+        <a href="@urlVoltar" class="btn btn-outline-secondary btn-sm">
+            <i class="bi bi-arrow-left"></i> Voltar
+        </a>
+    </div>
 
     <!-- SPINNER -->
     <div id="spinner" class="mt-3">
